@@ -64,7 +64,8 @@ nav {
 }
 
 .navbar-items .default-btn:hover {
-    background-color: #22bb5f;
+    opacity: 5;
+    background-color: #1faf26;
     color: #fff;
 }
 
@@ -74,6 +75,7 @@ nav {
     background-size: cover;
     background-position: center;
     padding: 10rem 0;
+    opacity: 0.8;
 }
 
 .main-banner h1,
@@ -197,7 +199,8 @@ nav {
     padding: 50px 0;
 }
 
-.plan .plan-btn {
+.plan .plan-btn,
+.plan .plan-btn-recommended {
     background-color: #2cc762;
     color: #fff;
     font-size: 24px;
@@ -206,8 +209,20 @@ nav {
     cursor: pointer;
 }
 
+.plan .plan-btn:hover {
+    opacity: 5;
+    background-color: #1faf26;
+    color: #fff;
+}
+
 .plan .recommended {
     background-color: #f45c57;
+}
+
+.plan .plan-btn-recommended:hover {
+    opacity: 5;
+    background-color: #f45c57;
+    color: #fff;
 }
 
 /* Search domain */
@@ -252,7 +267,9 @@ nav {
 }
 
 .searchdomain-container input[type="submit"]:hover {
-    opacity: 1;
+    opacity: 5;
+    background-color: #1faf26;
+    color: #fff;
 }
 
 /* Contact form */
@@ -294,6 +311,12 @@ nav {
     background-color: #2cc76a;
     color: #fff;
     cursor: pointer;
+}
+
+.contact-container input[type="submit"]:hover {
+    opacity: 5;
+    background-color: #1faf26;
+    color: #fff;
 }
 
 /* Footer */
