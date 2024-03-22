@@ -199,9 +199,17 @@ nav {
     padding: 50px 0;
 }
 
-.plan .plan-btn,
-.plan .plan-btn-recommended {
+.plan .plan-btn {
     background-color: #2cc762;
+    color: #fff;
+    font-size: 24px;
+    height: 75px;
+    line-height: 75px;
+    cursor: pointer;
+}
+
+.plan .plan-btn-recommended {
+    background-color: #f45c57;
     color: #fff;
     font-size: 24px;
     height: 75px;
@@ -221,7 +229,7 @@ nav {
 
 .plan .plan-btn-recommended:hover {
     opacity: 5;
-    background-color: #f45c57;
+    background-color: #f7261e;
     color: #fff;
 }
 
