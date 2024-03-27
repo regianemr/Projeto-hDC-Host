@@ -3,7 +3,7 @@
 
 ## 💻 Sobre o projeto
 
-O hDC Host é um site informativo sobre uma empresa de hospedagens. Em uma página única e responsiva para laptop, tablet e mobile. Foram utilizadas técnicas avançadas de HTML5 e CSS3, como flexbox, imagens com parallax e animações.
+O hDC Host é um site sobre uma empresa de hospedagens. Em uma página única e responsiva para laptop, tablet e mobile. Foram utilizadas técnicas avançadas de HTML5 e CSS3.
 -  Status: Completo
 
 ## ⚙️ Funcionalidades
